@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.headcomp{
+  font-family: "Londrina Solid";
+  font-weight: 400;
+  font-size: larger;
+  color: white;
+}
+
+.listitems{
+  display: flex;
+  align-items: center;
+  gap: 8vw;
+  justify-content: center;
+  margin-top: 0vh;
+  padding-top: 2rem;
+}

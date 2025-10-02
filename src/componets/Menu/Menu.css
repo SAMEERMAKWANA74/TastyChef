@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+  color: white;
+}
+
+.menu-container {
+  background: url('../../assets/home.jpg') no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  top: -50px;
+  min-height: 100vh; /* allow page to grow */
+}
+
+.menu-title{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  margin-top: 3rem;
+  font-size: larger;
+  letter-spacing: 0.2rem;
+  text-shadow: 0.5px 0.5px 1.5vh white;
+}
+
+.maincompo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh; /* full height hero */
+  padding: 0 5vw;
+}
+
+.rightpart
+{
+  margin-top: -25rem;
+  width: 50%;
+}
+
+.rightpart h2{
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: 'Inter';
+  letter-spacing: 1.5rem;
+}
+
+.rightpart h1{
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    font-size: 4.5rem;
+}
+
+.rightpart p{
+  margin-top: 1vh;
+  font-weight: 400;
+  font-size: 1.2rem;
+  font-family: 'lato';
+  letter-spacing: 2px;
+}
+
+.reviews {
+  display: flex;
+  align-items: center; 
+  gap: 8px; 
+}
+
+.reviews h4, 
+.reviews h3 {
+  margin: 0;             /* remove default margins */
+  line-height: 1;        /* tighter vertical spacing */
+}
+
+
+.rightpart h4{
+  font-family: 'Inter';
+  margin-left: 3rem;
+  font-weight: 700;
+  padding-top: .5vh;
+}
+
+.rightpart h3{
+  opacity: 60%;
+  color: white;
+  font-family: 'Inter';
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.leftpart img{
+  margin-left: 10vh;
+  margin-top: -20vh;
+  width: 40vw;
+  height: 65vh;
+}
