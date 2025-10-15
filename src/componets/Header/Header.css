@@ -13,6 +13,6 @@
   align-items: center;
   gap: 8vw;
   justify-content: center;
-  margin-top: 0vh;
-  padding-top: 2rem;
+  margin-block-start: 0vh;
+  padding-block-start: 2rem;
 }

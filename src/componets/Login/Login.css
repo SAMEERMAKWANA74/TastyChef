@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+body{
+  font-family: 'Inter';
+}
+
+
+.login-container {
+    background: url('../../assets/home.jpg') no-repeat center center;
+  background-size: cover;
+  inline-size: 100%;
+  inset-block-start: -50px;
+  min-block-size: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  block-size: 100vh;
+    background: #fff8f3;
+
+  
+}
+
+.login-box {
+  background: #ffffff;
+  padding: 40px 50px;
+  border-radius: 16px;
+  box-shadow: 0 4px 50px rgba(186, 137, 137, 0.6);
+  block-size: 400px;
+  inline-size: 450px;
+  text-align: center;
+}
+
+.login-box h1 {
+  margin-block-end: 25px;
+  color:  #6B0909;
+  font-weight: 600;
+  font-size: xx-large;
+}
+
+.login-box input {
+  inline-size: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  color: black;
+}
+
+.login-box input:focus {
+  border-color: #b05b5b;
+  outline: none;
+  box-shadow: 0 0 4px #ffd4a1;
+}
+
+.login-box button {
+  inline-size: 100%;
+  background-color: #8b2a2a; /* dark red background */
+  
+  color: #fff;
+  border: none;
+  padding: 12px;
+  margin-block-start: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.login-box button:hover {
+  background-color: #b05b5b;
+}
+
+.error-msg {
+  color: #e63946;
+  font-size: 14px;
+  margin-block-start: 5px;
+}
+
+.signup-text {
+  margin-block-start: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.signup-text a {
+  color: #6B0909;
+  text-decoration: none;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}
