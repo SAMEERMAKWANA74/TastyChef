@@ -7,9 +7,10 @@ function App() {
   return (
     <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
       <Routes>
-        <Route path="/" element={<Login />} />  
-        <Route path="/Home" element={<Home />} />
-        <Route path="/Menu" element={<Menu />} />
+        <Route path="/" element={<Login />} /> 
+         <Route path="/home" element={<Home />} />
+         <Route path="/menu" element={<Menu />} />
+
       </Routes>
     </Router>
   );

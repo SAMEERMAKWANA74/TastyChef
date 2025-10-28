@@ -5,7 +5,10 @@
   font-family: "Londrina Solid";
   font-weight: 400;
   font-size: larger;
-  color: white;
+  color: white;  
+  position: relative;
+  z-index: 10; /* keeps header above background */
+
 }
 
 .listitems{
