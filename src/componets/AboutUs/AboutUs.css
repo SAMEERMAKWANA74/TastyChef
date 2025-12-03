@@ -70,17 +70,21 @@
     font-family: 'Lato';
     margin-inline-start: 20rem;
 }
-
-.imgsection{
+.imgsection {
   display: flex;
-  max-block-size: 9%;
-  gap: 30%;
-  margin-inline-start: 17rem;
-  max-inline-size: 5%;
+  align-items: center;
+  gap: 0.5rem;                /* better and responsive spacing */
+  margin-inline-start: 20rem;
   margin-block-start: 1%;
 }
 
-.imgsection img:hover{
-    transform: scale(1.1);
+.imgsection img {
+  width: 30px;             /* adjust size based on your icons */
+  height: 30px;
+  cursor: pointer;         /* clickable effect */
+  transition: transform 0.3s ease;  /* smooth animation */
+}
 
+.imgsection img:hover {
+  transform: scale(1.1);
 }

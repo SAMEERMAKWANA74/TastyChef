@@ -39,11 +39,11 @@ const Reservation = () => {
           <label>Booking</label>
           <input type="text" placeholder="Enter Number of Booking" />
         </div>
+<div className="btn-row">
+  <button className="btn-common">Edit</button>
+  <button className="btn-common">Save</button>
+</div>
 
-            <div className="btn-row">
-              <button className="btn-edit">Edit</button>
-              <button className="btn-save">Save</button>
-            </div>
 <Link to="/reservationdone" className="btn-confirm">
   Confirm
 </Link>

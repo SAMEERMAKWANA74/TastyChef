@@ -88,30 +88,19 @@ input:hover{
   height: 40px;      /* instead of block-size  */
 }
 
-.btn-edit,
-.btn-save {
+.btn-common {
   padding: 0.6rem 1.5rem;
   border: none;
-  inline-size: 20%;
   border-radius: 20px;
   cursor: pointer;
   font-weight: 600;
   font-size: 15px;
-}
-
-.btn-edit {
   background: #742222;
   color: white;
+  width: 7rem;
 }
 
-.btn-save {
-  background: #742222;
-  color: white;
-}
-
-
-.btn-edit:hover,
-.btn-save:hover{
+.btn-common:hover{
   transform: scale(1.04);
   cursor: pointer;
   box-shadow: 0 0 5px #370101;
