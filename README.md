@@ -12,7 +12,6 @@ It allows users to easily reserve tables, view booking details, and navigate thr
 - 📅 **Table Reservation Form**
 - ✔️ **Reservation Confirmation Page**
 - ✏️ **Edit & Update Reservation**
-- ❌ **Close / Return to Home**
 - 📱 Fully responsive design
 - ⚛️ Built with React Components & React Router
 
