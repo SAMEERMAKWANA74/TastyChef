@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Londrina+Solid:wght@100;300;400;900&display=swap');
+
+.home-container {
+  background: url('../../assets/home.jpg') no-repeat center center;
+  background-size: cover;
+  inline-size: 100%;
+  min-block-size: 100vh;
+  position: relative;
+  z-index: 0; /* below header */
+
+}
+
+.homedesing{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block-start: 1rem;
+}
+
+.firstlayer {
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(247, 137, 137, 0.39); /* #F78989 with 39% opacity */
+  backdrop-filter: blur(-50px);
+  -webkit-backdrop-filter: blur(30px);
+  inline-size: 90rem;
+  block-size: 38rem;
+  border-radius: 1rem; /* Optional */
+
+}
+
+.secondlayer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+
+  background-color: rgba(255, 255, 255, 0.9); /* Figma: #FFFFFF with 90% opacity */
+  inline-size: 35rem; /* adjust */
+  block-size: 35rem; /* adjust */
+  border-radius: 1rem;
+  /* INNER SHADOW from Figma */
+  box-shadow: inset 4px 4px 120px 50px rgba(162, 42, 44, 0.25);
+}
+
+
+.secondlayer h1{
+  color:#CA4242;
+  font-family: 'Londrina Solid';
+  font-size: 150%;
+  margin-block-start: 1rem;
+  margin-block-end: 1.5rem;
+}
+
+.secondlayer p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.6rem;
+  color: #CA4242; /* soft dark red like Figma */
+  margin-block-end: 1rem;
+  font-family: 'Lato';
+}
+
+.secondlayer h2{
+    color:#CA4242;
+    font-size: 100%;
+    font-weight: 800;
+    font-family: 'Lato';
+    margin-inline-start: 20rem;
+}
+
+.imgsection{
+  display: flex;
+  max-block-size: 9%;
+  gap: 30%;
+  margin-inline-start: 17rem;
+  max-inline-size: 5%;
+  margin-block-start: 1%;
+}
+
+.imgsection img:hover{
+    transform: scale(1.1);
+
+}

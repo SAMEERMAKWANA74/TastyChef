@@ -35,8 +35,8 @@
 }
 
 .leftpart h1{
- margin-inline-start: 11vh;
- margin-block-start: -35vh;
+ margin-inline-start: 10vh;
+ margin-block-start: -32vh;
  color:white;
  font-size:4.5rem;
  font-weight: 800;
@@ -45,9 +45,9 @@
 }
 
 .leftpart h2{
-  margin-inline-start: 35vh;
+  margin-inline-start: 34vh;
   color: white;
-  margin-block-start: -20px;
+  margin-block-start: -10px;
   font-size: 3.5rem;
   font-family: 'Playfair Display';
   letter-spacing: 0.8vw;

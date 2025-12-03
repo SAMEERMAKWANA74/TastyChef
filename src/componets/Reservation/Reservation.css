@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Londrina+Solid:wght@100;300;400;900&display=swap');
+
+.home-container {
+  inline-size: 100%;
+  min-block-size: 100vh;
+  position: relative;
+  z-index: 0; /* below header */
+  }
+
+/* Card */
+.reservation-card {
+  margin-block-start: 2rem;
+  margin-inline-start: 2rem;
+  inline-size: 95%;
+  max-block-size: 39rem;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 25px;
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+  -webkit-backdrop-filter: blur(30px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+/* LEFT FORM */
+.reservation-form {
+  max-block-size: 36rem;
+  flex: 1;
+ background-color: rgba(255, 255, 255, 0.9);  padding: 1.5rem 2rem;
+  border-radius: 20px;
+  box-shadow: inset 4px 4px 120px 50px rgba(162, 42, 44, 0.25);
+
+}
+
+.form-title {
+  color: #7a1c1c;
+  font-family: 'Londrina Solid';
+  font-size: larger;
+  font-weight: 400;
+  margin-block-end: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-block-start: 10px;
+  font-weight: 700;
+  color: #6e1b1b;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+  gap: -2rem; /* space between label and input */
+}
+
+.form-row label {
+  font-weight: 700;
+  font-family: 'Lato';
+  color: #6e1b1b;
+  inline-size: 170px; /* keeps all labels aligned */
+  text-align: start;
+}
+
+.form-row input {
+  inline-size: 60%;
+  padding: 0.7rem;
+  border-radius: 12px;
+    color: #6e1b1b;
+  border: 1.5px solid #d5b3b3;
+  background: #fff;
+  font-size: 15px;
+}
+
+
+
+input:hover{
+  box-shadow: 0 0 2px #cc3737;
+}
+
+
+/* BUTTONS */
+.btn-row {
+  display: flex;
+  gap: 1rem;
+  width: 70%;        /* instead of inline-size */
+  height: 40px;      /* instead of block-size  */
+}
+
+.btn-edit,
+.btn-save {
+  padding: 0.6rem 1.5rem;
+  border: none;
+  inline-size: 20%;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.btn-edit {
+  background: #742222;
+  color: white;
+}
+
+.btn-save {
+  background: #742222;
+  color: white;
+}
+
+
+.btn-edit:hover,
+.btn-save:hover{
+  transform: scale(1.04);
+  cursor: pointer;
+  box-shadow: 0 0 5px #370101;
+  border-color: white;
+  border: 2.5px;
+}
+.btn-confirm { 
+  display: block;             /* IMPORTANT: enables width + margin to work */
+  margin-block-start: 3rem;
+  inline-size: 25%;           /* works now */
+  padding: 0.8rem;
+  border-radius: 20px;
+  border: none;
+  background: #cc3737;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  margin-inline-start: 27rem; /* now works */
+  font-size: 16px;
+  text-align: center;         /* centers the text inside */
+  text-decoration: none;      /* removes underline from Link */
+}
+
+.btn-confirm:hover{
+  transform: scale(1.04);
+  cursor: pointer;
+  box-shadow: 0 0 10px #cc3737;
+  border-color: white;
+  border: 2.5px;
+}
+
+/* RIGHT IMAGE */
+.reservation-image {
+  flex: 1;
+  inset-inline-start: -4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reservation-image img {
+  inline-size: 100%;
+  border-radius: 20px;
+  max-inline-size: 92%;
+}

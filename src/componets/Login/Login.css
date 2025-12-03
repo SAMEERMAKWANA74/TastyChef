@@ -57,19 +57,20 @@ body{
   box-shadow: 0 0 4px #ffd4a1;
 }
 
-.login-box button {
-  inline-size: 100%;
-  background-color: #8b2a2a; /* dark red background */
-  
-  color: #fff;
-  border: none;
-  padding: 12px;
-  margin-block-start: 10px;
-  border-radius: 8px;
-  font-size: 16px;
+.login-btn {
+  display: block;        /* or inline-block */
+  padding: 0.8rem 1.2rem;
+  background: #8b2a2a;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 600;
+  text-align: center;
   cursor: pointer;
-  transition: 0.3s ease;
+  width: 100%;           /* optional */
 }
+
+
 
 .login-box button:hover {
   background-color: #b05b5b;

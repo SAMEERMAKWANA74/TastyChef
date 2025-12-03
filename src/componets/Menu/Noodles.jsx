@@ -2,7 +2,7 @@ import React from 'react'
 import './Menu.css';
 import { Link } from 'react-router-dom';   // ✅ Import Link
 import Header from '../Header/Header';
-import Burger from '../../assets/Burger.png';
+import Noodlesimg from '../../assets/Noodles.png';
 import burgur_star from '../../assets/burgur_star.png';
 import leftimage from '../../assets/leftimage.png';
 import rightimage from '../../assets/rightimage.png';
@@ -11,7 +11,7 @@ import rightsidemain from '../../assets/rightsidemain.png';
 import leftsidemain from '../../assets/leftsidemain.png';
 
 
-const Menu = () => {
+const Noodles= () => {
   return (
     <>
     <div className="menu-container">
@@ -23,12 +23,12 @@ const Menu = () => {
         <div className='maincompo'>
             <div className="rightpart">
                   <h2>Our Signature</h2>
-                  <h1>BURGER</h1>
-                  <p>Perfectly grilled and <br/>
-                     Seerved fresh every time.</p>
+                  <h1>NOODLES</h1>
+                  <p>Stir-fried with veggies and bold spices,<br />
+                    our noodles deliver taste in every bite.</p>
                    <div className="reviews">
                        <h4>Reviews</h4>
-                       <h3>+4.6</h3>
+                       <h3>+4.3</h3>
                        <img src={burgur_star} alt="dish" /> 
                        
                    </div>    
@@ -38,7 +38,7 @@ const Menu = () => {
              </div>       
              </div>
             <div className="leftpart">
-                 <img src={Burger} alt="dish" />
+                 <img src={Noodlesimg} alt="dish" />
                   <div className="smallslides">
                     <img className="leftimage" src={leftimage} alt="Previous" />
                     <img className="sliesimage" src={sliesimage} alt="dots" />
@@ -47,10 +47,10 @@ const Menu = () => {
             </div>
         </div>
         <div className="bottomcomp">
-          <li><Link to="/menu/frenchfries">
+          <li><Link to="/menu/sandwich">
                          <img className="leftsidemain" src={leftsidemain} alt="dots" />
           </Link></li>
-          <li><Link to="/menu/sandwich">
+          <li><Link to="/menu/frenchfries">
                          <img className="rightsidemain" src={rightsidemain} alt="dots" />
           </Link></li>
         </div>
@@ -59,4 +59,4 @@ const Menu = () => {
   )
 }
 
-export default Menu
+export default Noodles
