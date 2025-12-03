@@ -1,12 +1,27 @@
-# React + Vite
+# 🍽️ TastyChef – Restaurant Reservation System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TastyChef is a modern restaurant reservation web application built using **React.js**.  
+It allows users to easily reserve tables, view booking details, and navigate through an interactive and user-friendly interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔐 **Login System**
+- 🏠 **Home Page with UI Components**
+- 📅 **Table Reservation Form**
+- ✔️ **Reservation Confirmation Page**
+- ✏️ **Edit & Update Reservation**
+- ❌ **Close / Return to Home**
+- 📱 Fully responsive design
+- ⚛️ Built with React Components & React Router
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, React Router, CSS
+- **Design:** Custom Components + Images + Responsive Layout
+- **Tools:** VS Code, Git, GitHub
+
+---
